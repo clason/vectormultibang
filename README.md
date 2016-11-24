@@ -1,7 +1,7 @@
 vectormultibang
 ===============
 
-This repository contains Matlab codes accompanying the paper [Vector multibang control of differential equations](http://arxiv.org/abs/1611.XXXXX) by [Christian Clason](http://udue.de/clason), Carla Tameling, and Benedikt Wirth.
+This repository contains Matlab codes accompanying the paper [Vector-valued multibang control of differential equations](http://arxiv.org/abs/1611.07853) by [Christian Clason](http://udue.de/clason), Carla Tameling, and Benedikt Wirth.
 
 Contents
 --------
@@ -16,8 +16,8 @@ If you find this approach useful, you can cite the paper as
 
     @article{vectormultibang,
         author = {Clason, Christian and Tameling, Carla and Wirth, Benedikt},
-        title = {Vector multibang control of differential equations},
+        title = {Vector-valued multibang control of differential equations},
         eprinttype = {arxiv},
-        eprint = {1611.XXXXX},
+        eprint = {1611.07853},
         year = {2016}
     }
