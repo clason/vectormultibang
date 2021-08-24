@@ -1,7 +1,7 @@
 vectormultibang
 ===============
 
-This repository contains Matlab codes accompanying the paper [Convex relaxation of discrete vector-valued optimization problems](https://doi.org/10.1137/16M1104998) ([arXiv preprint](http://arxiv.org/abs/1611.07853)) by [Christian Clason](https://homepage.uni-graz.at/c.clason), Carla Tameling, and [Benedikt Wirth](https://www.uni-muenster.de/AMM/num/wirth/people/Wirth/index.html).
+This repository contains Matlab codes accompanying the paper [Convex relaxation of discrete vector-valued optimization problems](https://doi.org/10.1137/21M1426237) ([arXiv preprint](http://arxiv.org/abs/2108.10077)) by [Christian Clason](https://homepage.uni-graz.at/c.clason), Carla Tameling, and [Benedikt Wirth](https://www.uni-muenster.de/AMM/num/wirth/people/Wirth/index.html).
 
 Contents
 --------
@@ -23,5 +23,6 @@ If you find this approach useful, you can cite the paper as
         journal = {SIAM Review},
         volume = {63},
         number = {4},
-        year = {2021}
+        year = {2021},
+        doi = {10.1137/21M1426237}
     }

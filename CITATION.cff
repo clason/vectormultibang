@@ -1,0 +1,36 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it using these metadata."
+authors:
+- family-names: "Clason"
+  given-names: "Christian"
+  orcid: "https://orcid.org/0000-0002-9948-8426"
+- family-names: "Tameling"
+  given-names: "Carla"
+  orcid: "https://orcid.org/0000-0003-3659-4819"
+- family-names: "Wirth"
+  given-names: "Benedikt"
+  orcid: "https://orcid.org/0000-0003-0393-1938"
+date-released: 2021-08-24
+version: "1"
+doi: 10.5281/zenodo.4803687
+license: MIT
+url: "https://github.com/clason/vectormultibang"
+title: "Matlab codes for 'Convex relaxation of discrete vector-valued optimization problems'"
+references:
+  - type: article
+    authors:
+    - family-names: "Clason"
+      given-names: "Christian"
+      orcid: "https://orcid.org/0000-0002-9948-8426"
+    - family-names: "Tameling"
+      given-names: "Carla"
+      orcid: "https://orcid.org/0000-0003-3659-4819"
+    - family-names: "Wirth"
+      given-names: "Benedikt"
+      orcid: "https://orcid.org/0000-0003-0393-1938"
+    title: "Convex relaxation of discrete vector-valued optimization problems"
+    doi: 10.1137/21M1426237
+    journal: "SIAM Review"
+    volume: 63
+    number: 4
+    year: 2021

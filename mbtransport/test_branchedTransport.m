@@ -4,6 +4,7 @@
 % described in
 %   C. Clason, C. Tameling, B. Wirth,
 %   Convex relaxation of discrete vector-valued optimization problems
+%   https://arxiv.org/abs/2108.10077
 %   To appear in SIAM Review (2021)
 %
 % April 19, 2021                    Christian Clason (c.clason@uni-graz.at)
