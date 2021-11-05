@@ -3,7 +3,7 @@
 % equation using the approach and the parameters described in
 %   C. Clason, C. Tameling, B. Wirth,
 %   Vector-valued multibang control of differential equations
-%   https://arxiv.org/abs/1611.07853
+%   SICON 56 (2018), 2295-2326 / https://arxiv.org/abs/1611.07853
 %
 % November 21, 2016          Christian Clason (christian.clason@uni-due.de)
 %              Carla Tameling (carla.tameling@mathematik.uni-goettingen.de)

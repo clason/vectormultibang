@@ -1,10 +1,10 @@
 % TEST_ELASTIC test script for linearized elasticity examples
 % This m-file computes discrete-valued optimal controls for the linearized
-% elasticity equations using the approach and the parameters described in 
+% elasticity equations using the approach and the parameters described in
 %   C. Clason, C. Tameling, B. Wirth,
 %   Vector-valued multibang control of differential equations
-%   https://arxiv.org/abs/161X.07853
-%     
+%   SICON 56 (2018), 2295-2326 / https://arxiv.org/abs/1611.07853
+%
 % November 21, 2016          Christian Clason (christian.clason@uni-due.de)
 %              Carla Tameling (carla.tameling@mathematik.uni-goettingen.de)
 %                           Benedikt Wirth (benedikt.wirth@uni-muenster.de)
@@ -78,7 +78,7 @@ switch penalty
         ubmag = omega0*ones(1,M);
         ubins = unique([-pi,phi,pi]);
         [ub1,ub2] = pol2cart(ubangle,ubmag);
-        ub = [ub1;ub2];       
+        ub = [ub1;ub2];
         mb_penalty = @(p,gamma) mb_radial(p,alpha,gamma,ub,ubins,omega0);
     case 'concentric'
         ub = [1  1 -1 -1 2  2 -2 -2;...
@@ -87,9 +87,9 @@ switch penalty
         mb_penalty = @(p,gamma) mb_concentric(p,alpha,gamma,ub);
 end
 % color-coded plot of controls scaled to maximum admissible control value
-uplot = @(u) phaseplot(xx,yy,u,ubmag);      
+uplot = @(u) phaseplot(xx,yy,u,ubmag);
 % plot grid deformed according to state and target
-yplot = @(y) deformplot(xx,yy,y,z);      
+yplot = @(y) deformplot(xx,yy,y,z);
 
 %% solve control problem
 [u,y] = ssn(z,Ah,Mh,N,mb_penalty,uplot,yplot);
